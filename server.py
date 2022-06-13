@@ -3,12 +3,14 @@ import csv
 app = Flask(__name__)
 
 @app.route("/")
-def hello_world():
-    return render_template('index.html')
+def index():
+    return render_template('index.html', class_name="navbar-inverse", page_name="Home")
 
 @app.route("/<string:page_name>")
 def page(page_name):
-    return render_template(page_name)
+    tmp = page_name.split('.')
+    name = tmp[0].capitalize()
+    return render_template(page_name, class_name="navbar-default", page_name=name)
 
 
 def write_to_file(data):
