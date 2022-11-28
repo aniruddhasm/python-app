@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    background: #fff;
+    line-height: 1.4;
+    color: #343434;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility !important;
+}
+body a {
+    outline: none;
+    outline-color: transparent !important;
+}
+
+body a:hover, body a:focus {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+a {
+    transition: all 0.3s ease-in 0s;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4;
+}
+pre { 
+    tab-size: 6; 
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    font-size: 16px;    
+    border-radius: 4px;
+    padding: 14px;
+    line-height: 20px;
+}
+.hero-full-container .hero-full-wrapper .text-content {
+    vertical-align: bottom;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-text{
+    color: #dddddd;
+    font-size: 16px;
+}

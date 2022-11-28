@@ -5,47 +5,52 @@
 
 <body class="">
 
-{% include 'common/header.html' %}
+  {% include 'common/header.html' %}
 
-<div class="section-container">
+  <div class="section-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
           <div class="section-container-spacer text-center">
             <h1 class="h2">About</h1>
           </div>
-          
+
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-6">
-                  <h3>Consectetur adipiscing elit</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius. 
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ultrices hendrerit nisl.</p>
-                  <h3>Ut enim ad minim </h3>
-                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-                  <h3>Maecenas luctus at sem quis varius</h3>
+                  <h2>Introduction</h2>
                   <p>
-                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
+                    I am a web developer with experise in frontend and backend technologies.
+                    I love anime and scifi series.
+                  </p>
+                  <h3>My Skills</h3>
+                  <pre id="beautified"></pre>
+                  <script>
+                    const myData = { "frontEnd": ["JavaScript", "Angular 2+", "Reactjs"], "backEnd": ["Node.js", "Python", "PHP"], "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"], "mobileTechnology": ["Android", "React Native"] }
+                    document.getElementById("beautified").innerHTML = JSON.stringify(myData, undefined, 2);
+                  </script>
+                  <h3>More About Me</h3>
+                  <p>
+                    I'm highly energetic and motivated person. I love to work as a member or a leader of a team. I
+                    enjoy working with changing projects and taking them forward with rapid pace but high
+                    precision.
+                  </p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                  <img src="./static/assets/images/profil.jpg" class="img-responsive" alt="">
+                  <img src="https://avatars.githubusercontent.com/u/2951356?v=4" class="img-responsive" alt="Aniruddha Mahamuni">
                 </div>
               </div>
             </div>
           </div>
-          
-          
-       </div>
+        </div>
       </div>
     </div>
   </div>
 
-{% include 'common/footer.html' %}
+  {% include 'common/footer.html' %}
 
-{% include 'common/scripts.html' %}
+  {% include 'common/scripts.html' %}
 
 </body>
 

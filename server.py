@@ -41,7 +41,7 @@ def submit_form():
         except:
             print('Something went wrong')
     else:
-        print('Somethingis really wrong')
+        print('Something is really wrong')
 
 
 @app.route("/blog")
