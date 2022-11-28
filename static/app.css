@@ -50,5 +50,8 @@ pre {
     font-size: 16px;
 }
 .fa-icon{
-    font-size: 24px;
+    font-size: 22px;
+}
+textarea, input, .nav>li>a {
+    font-size: 16px;
 }
