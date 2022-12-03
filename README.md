@@ -7,4 +7,4 @@
 Personal website. The website is built on python3 using Flask framework, HTML, CSS and bootstrap
 
 ## Acknowledgements
-* Template based on [html5up](https://html5up.net/) , [sitew](https://www.sitew.com/welcome/inexistant_host)
+* Template based on [html5up](https://html5up.net/), [sitew](https://www.sitew.com/welcome/inexistant_host)
