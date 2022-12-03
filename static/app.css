@@ -55,3 +55,36 @@ pre {
 textarea, input, .nav>li>a {
     font-size: 16px;
 }
+.card-container{
+    padding: 16px;
+    margin: 0 0px 30px 0px;
+    width: 100%;
+}
+.thumbnail {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    min-width: 40%;
+    border-radius: 5px;
+}
+ 
+.thumbnail-description {
+    min-height: 60px;
+}
+ 
+.thumbnail:hover {
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+}
+.thumbnail h3{
+    margin: 14px 0;
+}
+
+.thumbnail img{
+    height: auto;
+    width: 100%;
+}
+
+.carousel-inner .item.active{
+    padding: 8px;
+}
+
